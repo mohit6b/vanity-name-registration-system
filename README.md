@@ -35,4 +35,7 @@ Commands:
 
 `truffle test` => to run the test scripts on the contracts
 
-`truffle deploy` => to deploy the contracts to the networks configured in the truffle-config file.
+`truffle deploy` => to deploy the contracts to the networks configured in the truffle-config file. <br />
+
+#NOTE
+Please add .secret file with mnenomics in the main folder to run the project.
