@@ -16,7 +16,7 @@ The fee to register the name depends directly on the size of the name.
 
 Also, a malicious node/validator is not able to front-run the process by censoring transactions of an honest user and registering its name in its own account.
 
-#Front Running
+# Front Running
 Front running is the act of placing a transaction in a queue with the knowledge of a future transaction. Front running on a blockchain platform normally happens when a miner, who has access to information on pending transactions, places an order that would earn him a profit based on a pending trade.
 
 In order to make the system anti-front running we need to broadcast transactions to specified nodes through their specific RPC-URLs
@@ -37,5 +37,5 @@ Commands:
 
 `truffle deploy` => to deploy the contracts to the networks configured in the truffle-config file. <br />
 
-#NOTE
+# NOTE
 Please add .secret file with mnenomics in the main folder to run the project.
