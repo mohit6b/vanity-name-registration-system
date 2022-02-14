@@ -39,3 +39,11 @@ Commands:
 
 # NOTE
 Please add .secret file with mnenomics in the main folder to run the project.
+
+
+# How BackRunMe Works
+1. User submits a private transaction to the BackRunMe service.
+2. bloxRoute send metadata to searchers to propose backrun transactions
+3. bloxRoute examines the searchers' replies for program compliances
+4. bloxRoute sends the first valid and most profitable backrunning MEV() bundles to pools via private communication for execution
+
